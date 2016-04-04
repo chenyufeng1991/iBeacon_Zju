@@ -27,6 +27,14 @@
 		618B3C8B1CB1470F00A073A0 /* JYMeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 618B3C8A1CB1470F00A073A0 /* JYMeViewController.m */; };
 		618FDB2C1CB1F518001B13C7 /* JYFMDB.m in Sources */ = {isa = PBXBuildFile; fileRef = 618FDB2B1CB1F518001B13C7 /* JYFMDB.m */; };
 		618FDB331CB1F6E3001B13C7 /* UIBarButtonItem+JY.m in Sources */ = {isa = PBXBuildFile; fileRef = 618FDB321CB1F6E3001B13C7 /* UIBarButtonItem+JY.m */; };
+		618FDB361CB20BBE001B13C7 /* JYMainModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 618FDB351CB20BBE001B13C7 /* JYMainModel.m */; };
+		618FDB381CB20C9E001B13C7 /* JYMainCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 618FDB371CB20C9E001B13C7 /* JYMainCell.xib */; };
+		618FDB3B1CB20E63001B13C7 /* JYMainTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 618FDB3A1CB20E63001B13C7 /* JYMainTableViewCell.m */; };
+		618FDB3D1CB22E1E001B13C7 /* MainPList.plist in Resources */ = {isa = PBXBuildFile; fileRef = 618FDB3C1CB22E1E001B13C7 /* MainPList.plist */; };
+		618FDB3F1CB2396C001B13C7 /* JYHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 618FDB3E1CB2396C001B13C7 /* JYHeaderView.xib */; };
+		618FDB421CB23D17001B13C7 /* JYHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 618FDB411CB23D17001B13C7 /* JYHeaderView.m */; };
+		618FDB441CB243AA001B13C7 /* JYFooterView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 618FDB431CB243AA001B13C7 /* JYFooterView.xib */; };
+		618FDB471CB2449B001B13C7 /* JYFooterView.m in Sources */ = {isa = PBXBuildFile; fileRef = 618FDB461CB2449B001B13C7 /* JYFooterView.m */; };
 		85F340E13EA6ACD6DD6DB07F /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E3AD2C127FAF170DD0395781 /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -88,6 +96,18 @@
 		618FDB2B1CB1F518001B13C7 /* JYFMDB.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JYFMDB.m; sourceTree = "<group>"; };
 		618FDB311CB1F6E3001B13C7 /* UIBarButtonItem+JY.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+JY.h"; sourceTree = "<group>"; };
 		618FDB321CB1F6E3001B13C7 /* UIBarButtonItem+JY.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+JY.m"; sourceTree = "<group>"; };
+		618FDB341CB20BBE001B13C7 /* JYMainModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JYMainModel.h; sourceTree = "<group>"; };
+		618FDB351CB20BBE001B13C7 /* JYMainModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JYMainModel.m; sourceTree = "<group>"; };
+		618FDB371CB20C9E001B13C7 /* JYMainCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JYMainCell.xib; sourceTree = "<group>"; };
+		618FDB391CB20E63001B13C7 /* JYMainTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JYMainTableViewCell.h; sourceTree = "<group>"; };
+		618FDB3A1CB20E63001B13C7 /* JYMainTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JYMainTableViewCell.m; sourceTree = "<group>"; };
+		618FDB3C1CB22E1E001B13C7 /* MainPList.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = MainPList.plist; sourceTree = "<group>"; };
+		618FDB3E1CB2396C001B13C7 /* JYHeaderView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JYHeaderView.xib; sourceTree = "<group>"; };
+		618FDB401CB23D17001B13C7 /* JYHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JYHeaderView.h; sourceTree = "<group>"; };
+		618FDB411CB23D17001B13C7 /* JYHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JYHeaderView.m; sourceTree = "<group>"; };
+		618FDB431CB243AA001B13C7 /* JYFooterView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JYFooterView.xib; sourceTree = "<group>"; };
+		618FDB451CB2449B001B13C7 /* JYFooterView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JYFooterView.h; sourceTree = "<group>"; };
+		618FDB461CB2449B001B13C7 /* JYFooterView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JYFooterView.m; sourceTree = "<group>"; };
 		8F4C482ED8F919A29206F7FB /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		B80A3E9BD797DEE4662CC1AC /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		E3AD2C127FAF170DD0395781 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -174,6 +194,7 @@
 				6184309F1CB104B200AF52D4 /* LaunchScreen.storyboard */,
 				618430A21CB104B200AF52D4 /* Info.plist */,
 				618430921CB104B200AF52D4 /* main.m */,
+				618FDB3C1CB22E1E001B13C7 /* MainPList.plist */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -338,6 +359,15 @@
 		618FDB261CB1F45D001B13C7 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				618FDB371CB20C9E001B13C7 /* JYMainCell.xib */,
+				618FDB391CB20E63001B13C7 /* JYMainTableViewCell.h */,
+				618FDB3A1CB20E63001B13C7 /* JYMainTableViewCell.m */,
+				618FDB3E1CB2396C001B13C7 /* JYHeaderView.xib */,
+				618FDB401CB23D17001B13C7 /* JYHeaderView.h */,
+				618FDB411CB23D17001B13C7 /* JYHeaderView.m */,
+				618FDB431CB243AA001B13C7 /* JYFooterView.xib */,
+				618FDB451CB2449B001B13C7 /* JYFooterView.h */,
+				618FDB461CB2449B001B13C7 /* JYFooterView.m */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -345,6 +375,8 @@
 		618FDB271CB1F465001B13C7 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				618FDB341CB20BBE001B13C7 /* JYMainModel.h */,
+				618FDB351CB20BBE001B13C7 /* JYMainModel.m */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -483,9 +515,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				618FDB3F1CB2396C001B13C7 /* JYHeaderView.xib in Resources */,
 				618B3C661CB129AD00A073A0 /* loginView.xib in Resources */,
 				618430A11CB104B200AF52D4 /* LaunchScreen.storyboard in Resources */,
+				618FDB441CB243AA001B13C7 /* JYFooterView.xib in Resources */,
+				618FDB3D1CB22E1E001B13C7 /* MainPList.plist in Resources */,
 				6184309E1CB104B200AF52D4 /* Assets.xcassets in Resources */,
+				618FDB381CB20C9E001B13C7 /* JYMainCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -559,9 +595,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				618B3C5E1CB1278100A073A0 /* JYMainViewController.m in Sources */,
+				618FDB361CB20BBE001B13C7 /* JYMainModel.m in Sources */,
 				6106A98B1CB15520006B4393 /* JYNavigationController.m in Sources */,
 				6106A9881CB154BB006B4393 /* JYTabBarViewController.m in Sources */,
+				618FDB421CB23D17001B13C7 /* JYHeaderView.m in Sources */,
 				618B3C6E1CB12E5400A073A0 /* JYLoginView.m in Sources */,
+				618FDB3B1CB20E63001B13C7 /* JYMainTableViewCell.m in Sources */,
 				618B3C8B1CB1470F00A073A0 /* JYMeViewController.m in Sources */,
 				618B3C5B1CB111CC00A073A0 /* JYNewFeatureController.m in Sources */,
 				6106A9821CB15358006B4393 /* JYTabBarButton.m in Sources */,
@@ -570,6 +609,7 @@
 				618B3C751CB137B700A073A0 /* JYAccount.m in Sources */,
 				6106A9851CB153F5006B4393 /* JYTabBar.m in Sources */,
 				618B3C621CB1285700A073A0 /* JYLoginController.m in Sources */,
+				618FDB471CB2449B001B13C7 /* JYFooterView.m in Sources */,
 				618FDB331CB1F6E3001B13C7 /* UIBarButtonItem+JY.m in Sources */,
 				618430931CB104B200AF52D4 /* main.m in Sources */,
 				618FDB2C1CB1F518001B13C7 /* JYFMDB.m in Sources */,

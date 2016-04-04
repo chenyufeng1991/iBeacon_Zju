@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>marketImage</key>
+		<string>1</string>
+		<key>marketName</key>
+		<string>银泰百货天一店</string>
+		<key>marketDistance</key>
+		<string>8.7公里</string>
+	</dict>
+	<dict>
+		<key>marketImage</key>
+		<string>2</string>
+		<key>marketName</key>
+		<string>银泰百货宁波鄞州店</string>
+		<key>marketDistance</key>
+		<string>11.4公里</string>
+	</dict>
+	<dict>
+		<key>marketImage</key>
+		<string>3</string>
+		<key>marketName</key>
+		<string>宁波环球银泰城</string>
+		<key>marketDistance</key>
+		<string>14.0公里</string>
+	</dict>
+	<dict>
+		<key>marketImage</key>
+		<string>4</string>
+		<key>marketName</key>
+		<string>慈溪银泰城</string>
+		<key>marketDistance</key>
+		<string>48.9公里</string>
+	</dict>
+</array>
+</plist>
